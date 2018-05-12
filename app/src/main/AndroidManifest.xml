@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="tw.youten.redo.tw"
+<manifest package="youten.redo.daydream.tinylauncher"
           xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!-- The VR app is Daydream-only since it uses the controller. -->
@@ -28,7 +28,7 @@
                  background icon. The foreground icon is also used by the 2D Activity. -->
             <meta-data
                 android:name="com.google.android.vr.icon"
-                android:resource="@drawable/tw_front" />
+                android:resource="@drawable/tiny_front" />
             <meta-data
                 android:name="com.google.android.vr.icon_background"
                 android:resource="@drawable/tw_back" />

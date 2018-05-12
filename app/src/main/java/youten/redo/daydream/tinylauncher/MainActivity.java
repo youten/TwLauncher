@@ -1,4 +1,4 @@
-package tw.youten.redo.tw;
+package youten.redo.daydream.tinylauncher;
 
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
@@ -13,7 +13,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
 
         try {
-            Intent intent = getPackageManager().getLaunchIntentForPackage("com.twitter.android");
+            Intent intent = getPackageManager().getLaunchIntentForPackage("com.atomicadd.tinylauncher");
             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(intent);
         } catch (ActivityNotFoundException e) {
