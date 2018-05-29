@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">TwLauncher</string>
-    <string name="activity_name">Tw</string>
+    <string name="app_name">HomeL</string>
+    <string name="activity_name">HomeL</string>
     <string name="app_not_found">App Not Found.</string>
     <!-- copy from string name="gvr_vr_mode_component in gvr sdk -->
     <string name="my_gvr_vr_mode_component" translatable="false" description="Google VR component name used for enabling VR mode">com.google.vr.vrcore/com.google.vr.vrcore.common.VrCoreListenerService</string>
